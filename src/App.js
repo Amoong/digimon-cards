@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import CardList from "./components/CardList";
+
+import "./App.css";
+import { useEffect, useState } from "react";
 
 function App() {
+  const [dataList, setDataList] = useState();
+
+  const initDatas = async () => {
+    const cardFetch = await fetch("/data.json");
+    const cards = await cardFetch.json();
+    setDataList(cards);
+  };
+
+  useEffect(() => {
+    initDatas();
+  }, []);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Digimon Cards</h1>
+      {dataList ? <CardList dataList={dataList} /> : <span>Loading...</span>}
     </div>
   );
 }

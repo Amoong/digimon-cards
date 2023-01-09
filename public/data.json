@@ -1,0 +1,26 @@
+[
+  {
+    "id": "EX03-028",
+    "name": "Patamon",
+    "supertype": "Digimon",
+    "subtypes": ["Basic"],
+    "rarity": "Common",
+    "imageSrc": "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/EX3/EX03-028_D.png"
+  },
+  {
+    "id": "EX3-027",
+    "name": "Agumon",
+    "supertype": "Digimon",
+    "subtypes": ["Basic"],
+    "rarity": "Common",
+    "imageSrc": "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/EX3/e_EX3-027_D.png"
+  },
+  {
+    "id": "BT10-071",
+    "name": "Gazimon",
+    "supertype": "Digimon",
+    "subtypes": ["Basic"],
+    "rarity": "Common",
+    "imageSrc": "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT10/e_BT10-071_D.png"
+  }
+]

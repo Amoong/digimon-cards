@@ -1,0 +1,8 @@
+.CardList {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+  width: 70%;
+  transform-style: preserve-3d;
+  padding: 20px;
+}

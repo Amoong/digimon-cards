@@ -1,0 +1,47 @@
+.Card {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 600 / 838;
+  transform-style: preserve-3d;
+  transform-origin: center;
+}
+
+.Card img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 600 / 838;
+}
+
+.Card__translater {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  perspective: 600px;
+}
+
+.Card__rotator {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  transform-style: preserve-3d;
+  transform: rotate3d(1, 1, 1, 20deg);
+}
+
+.Card__back {
+  position: absolute;
+  transform-origin: center;
+  transform: rotateY(180deg);
+  backface-visibility: hidden;
+  z-index: 1;
+}
+
+.Card__front {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+  z-index: 2;
+}
