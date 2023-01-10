@@ -26,7 +26,7 @@
   height: 100%;
   border-radius: 10px;
   transform-style: preserve-3d;
-  transform: rotate3d(1, 1, 1, 20deg);
+  transform: rotateX(var(--ry)) rotateY(var(--rx));
 }
 
 .Card__back {
