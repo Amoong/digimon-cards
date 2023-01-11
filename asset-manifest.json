@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/digimon-cards/static/css/main.e9edc253.css",
+    "main.js": "/digimon-cards/static/js/main.fb443f08.js",
+    "static/media/ancient.png": "/digimon-cards/static/media/ancient.de2663fe6b3d5c773611.png",
+    "index.html": "/digimon-cards/index.html",
+    "main.e9edc253.css.map": "/digimon-cards/static/css/main.e9edc253.css.map",
+    "main.fb443f08.js.map": "/digimon-cards/static/js/main.fb443f08.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e9edc253.css",
+    "static/js/main.fb443f08.js"
+  ]
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "EX03-028",
+    "name": "Patamon",
+    "supertype": "Digimon",
+    "subtypes": ["Basic"],
+    "rarity": "Common",
+    "imageSrc": "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/EX3/EX03-028_D.png"
+  },
+  {
+    "id": "EX3-027",
+    "name": "Agumon",
+    "supertype": "Digimon",
+    "subtypes": ["Basic"],
+    "rarity": "Common",
+    "imageSrc": "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/EX3/e_EX3-027_D.png"
+  },
+  {
+    "id": "BT10-071",
+    "name": "Gazimon",
+    "supertype": "Digimon",
+    "subtypes": ["Basic"],
+    "rarity": "Common",
+    "imageSrc": "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT10/e_BT10-071_D.png"
+  },
+  {
+    "id": "EX3-070",
+    "name": "Avalon's Gate",
+    "supertype": "Digimon",
+    "subtypes": ["Basic"],
+    "rarity": "Rare Holo",
+    "imageSrc": "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/EX3/e_EX3-070_D.png"
+  },
+  {
+    "id": "EX3-066",
+    "name": "Hyper Infinity Cannon",
+    "supertype": "Digimon",
+    "subtypes": ["Basic"],
+    "rarity": "Rare Holo",
+    "imageSrc": "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/EX3/e_EX3-066_D.png"
+  },
+  {
+    "id": "BT9-099",
+    "name": "Sunrise Buster",
+    "supertype": "Digimon",
+    "subtypes": ["Basic"],
+    "rarity": "Rare Holo",
+    "imageSrc": "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT9/e_BT9-099_dummy.jpg"
+  },
+  {
+    "id": "BT10-086",
+    "name": "Omnimon (X Antibody)",
+    "supertype": "Digimon",
+    "subtypes": ["Basic"],
+    "rarity": "SuperRare",
+    "imageSrc": "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT10/e_BT10-086_D.png"
+  },
+  {
+    "id": "EX2-024",
+    "name": "Sakuyamon",
+    "supertype": "Digimon",
+    "subtypes": ["Basic"],
+    "rarity": "SuperRare",
+    "imageSrc": "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/EX2/EX2-024_dummy.jpg"
+  },
+  {
+    "id": "BT8-019",
+    "name": "Zhuqiaomon",
+    "supertype": "Digimon",
+    "subtypes": ["Basic"],
+    "rarity": "SuperRare",
+    "imageSrc": "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT8/e_BT8_019.png"
+  }
+]
