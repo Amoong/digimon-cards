@@ -23,6 +23,8 @@ function App() {
       {dataList ? <CardList dataList={dataList.slice(0, 3)} /> : <span>Loading...</span>}
       <h2 className="subtitle">Rare Holo</h2>
       {dataList ? <CardList dataList={dataList.slice(3, 6)} /> : <span>Loading...</span>}
+      <h2 className="subtitle">SuperRare</h2>
+      {dataList ? <CardList dataList={dataList.slice(6, 9)} /> : <span>Loading...</span>}
     </div>
   );
 }
