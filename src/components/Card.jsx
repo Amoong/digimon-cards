@@ -1,5 +1,7 @@
-import { useRef, useState } from "react";
+import { useRef } from "react";
+import useMotion from "../hooks/useMotion";
 import { makeCssVariables } from "../utils";
+
 import "./Card.css";
 
 const initialAttr = {
@@ -10,7 +12,7 @@ const initialAttr = {
 function Card({ data: { imageSrc, name } }) {
   const cardRef = useRef(null);
 
-  const [motionAttr, setMotionAttr] = useState(initialAttr);
+  const [motionAttr, setMotionAttr] = useMotion(initialAttr);
 
   const interactStart = (e) => {
     if (e.type === "touchmove") {
@@ -40,11 +42,10 @@ function Card({ data: { imageSrc, name } }) {
       y: center.y / 4,
     };
 
-    setMotionAttr((prev) => ({
-      ...prev,
-      rx: `${degree.x}`,
-      ry: `${degree.y}`,
-    }));
+    setMotionAttr({
+      rx: degree.x,
+      ry: degree.y,
+    });
   };
 
   const interactEnd = () => {
