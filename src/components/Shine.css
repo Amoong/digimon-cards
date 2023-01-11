@@ -26,14 +26,14 @@
   --bars: 4%;
   --bar-color: rgba(255, 255, 255, 0.6);
   --bar-bg: rgb(10, 10, 10);
-  
+
   clip-path: inset(4% 6.5% 47%);
 
   background-image:
     repeating-linear-gradient(90deg,
-      var(--bar-bg) calc(var(--bars)*2), var(--bar-color) calc(var(--bars)*3), var(--bar-bg) calc(var(--bars)*3.5), var(--bar-color) calc(var(--bars)*4), var(--bar-bg) calc(var(--bars)*5), var(--bar-bg) calc(var(--bars)*12));
-  background-blend-mode: screen;
-  background-position: calc(var(--gx)*-1.2) var(--gy);
-  background-size: 237% 237%;
+      var(--bar-bg) calc(var(--bars)*2), var(--bar-color) calc(var(--bars)*3), var(--bar-bg) calc(var(--bars)*3.5), var(--bar-color) calc(var(--bars)*4), var(--bar-bg) calc(var(--bars)*5), var(--bar-bg) calc(var(--bars)*9));
+  background-blend-mode: overlay;
+  background-position: var(--gx) var(--gy);
+  background-size: 195% 195%;
   opacity: var(--go);
 }
