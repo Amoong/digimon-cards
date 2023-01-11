@@ -2,6 +2,8 @@ import { useRef } from "react";
 import useMotion from "../hooks/useMotion";
 import { makeCssVariables } from "../utils";
 
+import Glare from "./Glare";
+
 import "./Card.css";
 
 const initialAttr = {
@@ -67,6 +69,7 @@ function Card({ data: { imageSrc, name } }) {
           />
           <div className="Card__front">
             <img src={imageSrc} alt={name} />
+            <Glare />
           </div>
         </button>
       </div>
