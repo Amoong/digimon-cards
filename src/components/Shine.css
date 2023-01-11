@@ -18,7 +18,7 @@
   --s: 70%;
   --l: 50%;
 
-  clip-path: inset( 4% 4.5% 47% );
+  clip-path: inset( 4% 6.5% 47% );
 
   background-image:
     repeating-linear-gradient( 90deg, 
@@ -58,5 +58,9 @@
       black calc(var(--space)*33.001), black calc(var(--space)*33.999),
       hsl(calc(var(--h)*17), var(--s), var(--l)) calc(var(--space)*34), hsl(calc(var(--h)*17), var(--s), var(--l)) calc(var(--space)*35), 
       black calc(var(--space)*35.001), black calc(var(--space)*35.999)
-    )
+    );
+
+    background-blend-mode: soft-light;
+    background-position: center;
+    background-size: 100px 100px;
 }
