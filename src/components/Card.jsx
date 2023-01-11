@@ -9,6 +9,9 @@ import "./Card.css";
 const initialAttr = {
   rx: 0,
   ry: 0,
+  gx: 50,
+  gy: 50,
+  go: 0,
 };
 
 function Card({ data: { imageSrc, name } }) {
@@ -47,6 +50,9 @@ function Card({ data: { imageSrc, name } }) {
     setMotionAttr({
       rx: degree.x,
       ry: degree.y,
+      gx: percent.x,
+      gy: percent.y,
+      go: 1,
     });
   };
 
