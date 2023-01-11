@@ -7,7 +7,7 @@ function App() {
   const [dataList, setDataList] = useState();
 
   const initDatas = async () => {
-    const cardFetch = await fetch("/data.json");
+    const cardFetch = await fetch("data.json");
     const cards = await cardFetch.json();
     setDataList(cards);
   };
