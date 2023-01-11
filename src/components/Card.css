@@ -24,9 +24,13 @@
   display: flex;
   width: 100%;
   height: 100%;
-  border-radius: 10px;
   transform-style: preserve-3d;
   transform: rotateX(var(--ry)) rotateY(var(--rx));
+  border-radius: 16px;
+}
+
+.Card__rotator * {
+  border-radius: 16px;
 }
 
 .Card__back {

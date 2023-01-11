@@ -18,8 +18,11 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Digimon Cards</h1>
-      {dataList ? <CardList dataList={dataList} /> : <span>Loading...</span>}
+      <h1 className="title">Digimon Cards</h1>
+      <h2 className="subtitle">Common</h2>
+      {dataList ? <CardList dataList={dataList.slice(0, 3)} /> : <span>Loading...</span>}
+      <h2 className="subtitle">Rare Holo</h2>
+      {dataList ? <CardList dataList={dataList.slice(3, 6)} /> : <span>Loading...</span>}
     </div>
   );
 }

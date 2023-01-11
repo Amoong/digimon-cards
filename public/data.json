@@ -22,5 +22,29 @@
     "subtypes": ["Basic"],
     "rarity": "Common",
     "imageSrc": "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT10/e_BT10-071_D.png"
+  },
+  {
+    "id": "EX3-070",
+    "name": "Avalon's Gate",
+    "supertype": "Digimon",
+    "subtypes": ["Basic"],
+    "rarity": "Rare Holo",
+    "imageSrc": "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/EX3/e_EX3-070_D.png"
+  },
+  {
+    "id": "EX3-066",
+    "name": "Hyper Infinity Cannon",
+    "supertype": "Digimon",
+    "subtypes": ["Basic"],
+    "rarity": "Rare Holo",
+    "imageSrc": "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/EX3/e_EX3-066_D.png"
+  },
+  {
+    "id": "BT9-099",
+    "name": "Sunrise Buster",
+    "supertype": "Digimon",
+    "subtypes": ["Basic"],
+    "rarity": "Rare Holo",
+    "imageSrc": "https://s3.amazonaws.com/prod.bandaitcgplus.files.api/card_image/DG-EN/BT9/e_BT9-099_dummy.jpg"
   }
 ]

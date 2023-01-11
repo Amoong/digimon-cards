@@ -8,3 +8,14 @@
   color: #fafafa;
   font-family: "Noto Sans KR", sans-serif;
 }
+
+.title {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.subtitle {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
