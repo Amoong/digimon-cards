@@ -3,6 +3,7 @@ import useMotion from "../hooks/useMotion";
 import { makeCssVariables } from "../utils";
 
 import Glare from "./Glare";
+import Shine from "./Shine";
 
 import "./Card.css";
 
@@ -14,7 +15,7 @@ const initialAttr = {
   go: 0,
 };
 
-function Card({ data: { imageSrc, name } }) {
+function Card({ data: { imageSrc, name, rarity } }) {
   const cardRef = useRef(null);
 
   const [motionAttr, setMotionAttr] = useMotion(initialAttr);
@@ -61,7 +62,12 @@ function Card({ data: { imageSrc, name } }) {
   };
 
   return (
-    <div className="Card" style={makeCssVariables(motionAttr)} ref={cardRef}>
+    <div
+      className="Card"
+      data-rarity={rarity}
+      style={makeCssVariables(motionAttr)}
+      ref={cardRef}
+    >
       <div className="Card__translater">
         <button
           className="Card__rotator"
@@ -75,6 +81,7 @@ function Card({ data: { imageSrc, name } }) {
           />
           <div className="Card__front">
             <img src={imageSrc} alt={name} />
+            <Shine />
             <Glare />
           </div>
         </button>
